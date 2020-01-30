@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7112C4A223E2DF5E009CEB0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7112C4A123E2DF5E009CEB0B /* AppDelegate.swift */; };
+		7112C4A423E2DF5E009CEB0B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7112C4A323E2DF5E009CEB0B /* SceneDelegate.swift */; };
+		7112C4A723E2DF5E009CEB0B /* Tele2_NOG_1GB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7112C4A523E2DF5E009CEB0B /* Tele2_NOG_1GB.xcdatamodeld */; };
+		7112C4A923E2DF5E009CEB0B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7112C4A823E2DF5E009CEB0B /* ContentView.swift */; };
+		7112C4AB23E2DF60009CEB0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7112C4AA23E2DF60009CEB0B /* Assets.xcassets */; };
+		7112C4AE23E2DF60009CEB0B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7112C4AD23E2DF60009CEB0B /* Preview Assets.xcassets */; };
+		7112C4B123E2DF60009CEB0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7112C4AF23E2DF60009CEB0B /* LaunchScreen.storyboard */; };
+		7112C4BC23E2DF60009CEB0B /* Tele2_NOG_1GBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7112C4BB23E2DF60009CEB0B /* Tele2_NOG_1GBTests.swift */; };
+		7112C4C723E2DF60009CEB0B /* Tele2_NOG_1GBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7112C4C623E2DF60009CEB0B /* Tele2_NOG_1GBUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7112C4B823E2DF60009CEB0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7112C49623E2DF5E009CEB0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7112C49D23E2DF5E009CEB0B;
+			remoteInfo = "Tele2-NOG-1GB";
+		};
+		7112C4C323E2DF60009CEB0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7112C49623E2DF5E009CEB0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7112C49D23E2DF5E009CEB0B;
+			remoteInfo = "Tele2-NOG-1GB";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7112C49E23E2DF5E009CEB0B /* Tele2-NOG-1GB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tele2-NOG-1GB.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7112C4A123E2DF5E009CEB0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7112C4A323E2DF5E009CEB0B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7112C4A623E2DF5E009CEB0B /* Tele2_NOG_1GB.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tele2_NOG_1GB.xcdatamodel; sourceTree = "<group>"; };
+		7112C4A823E2DF5E009CEB0B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7112C4AA23E2DF60009CEB0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7112C4AD23E2DF60009CEB0B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7112C4B023E2DF60009CEB0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7112C4B223E2DF60009CEB0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7112C4B723E2DF60009CEB0B /* Tele2-NOG-1GBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tele2-NOG-1GBTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7112C4BB23E2DF60009CEB0B /* Tele2_NOG_1GBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tele2_NOG_1GBTests.swift; sourceTree = "<group>"; };
+		7112C4BD23E2DF60009CEB0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7112C4C223E2DF60009CEB0B /* Tele2-NOG-1GBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tele2-NOG-1GBUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7112C4C623E2DF60009CEB0B /* Tele2_NOG_1GBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tele2_NOG_1GBUITests.swift; sourceTree = "<group>"; };
+		7112C4C823E2DF60009CEB0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7112C49B23E2DF5E009CEB0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7112C4B423E2DF60009CEB0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7112C4BF23E2DF60009CEB0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7112C49523E2DF5E009CEB0B = {
+			isa = PBXGroup;
+			children = (
+				7112C4A023E2DF5E009CEB0B /* Tele2-NOG-1GB */,
+				7112C4BA23E2DF60009CEB0B /* Tele2-NOG-1GBTests */,
+				7112C4C523E2DF60009CEB0B /* Tele2-NOG-1GBUITests */,
+				7112C49F23E2DF5E009CEB0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7112C49F23E2DF5E009CEB0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7112C49E23E2DF5E009CEB0B /* Tele2-NOG-1GB.app */,
+				7112C4B723E2DF60009CEB0B /* Tele2-NOG-1GBTests.xctest */,
+				7112C4C223E2DF60009CEB0B /* Tele2-NOG-1GBUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7112C4A023E2DF5E009CEB0B /* Tele2-NOG-1GB */ = {
+			isa = PBXGroup;
+			children = (
+				7112C4A123E2DF5E009CEB0B /* AppDelegate.swift */,
+				7112C4A323E2DF5E009CEB0B /* SceneDelegate.swift */,
+				7112C4A823E2DF5E009CEB0B /* ContentView.swift */,
+				7112C4AA23E2DF60009CEB0B /* Assets.xcassets */,
+				7112C4AF23E2DF60009CEB0B /* LaunchScreen.storyboard */,
+				7112C4B223E2DF60009CEB0B /* Info.plist */,
+				7112C4A523E2DF5E009CEB0B /* Tele2_NOG_1GB.xcdatamodeld */,
+				7112C4AC23E2DF60009CEB0B /* Preview Content */,
+			);
+			path = "Tele2-NOG-1GB";
+			sourceTree = "<group>";
+		};
+		7112C4AC23E2DF60009CEB0B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7112C4AD23E2DF60009CEB0B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7112C4BA23E2DF60009CEB0B /* Tele2-NOG-1GBTests */ = {
+			isa = PBXGroup;
+			children = (
+				7112C4BB23E2DF60009CEB0B /* Tele2_NOG_1GBTests.swift */,
+				7112C4BD23E2DF60009CEB0B /* Info.plist */,
+			);
+			path = "Tele2-NOG-1GBTests";
+			sourceTree = "<group>";
+		};
+		7112C4C523E2DF60009CEB0B /* Tele2-NOG-1GBUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7112C4C623E2DF60009CEB0B /* Tele2_NOG_1GBUITests.swift */,
+				7112C4C823E2DF60009CEB0B /* Info.plist */,
+			);
+			path = "Tele2-NOG-1GBUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7112C49D23E2DF5E009CEB0B /* Tele2-NOG-1GB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7112C4CB23E2DF60009CEB0B /* Build configuration list for PBXNativeTarget "Tele2-NOG-1GB" */;
+			buildPhases = (
+				7112C49A23E2DF5E009CEB0B /* Sources */,
+				7112C49B23E2DF5E009CEB0B /* Frameworks */,
+				7112C49C23E2DF5E009CEB0B /* Resources */,
+				7112C4D423E2DF94009CEB0B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tele2-NOG-1GB";
+			productName = "Tele2-NOG-1GB";
+			productReference = 7112C49E23E2DF5E009CEB0B /* Tele2-NOG-1GB.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7112C4B623E2DF60009CEB0B /* Tele2-NOG-1GBTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7112C4CE23E2DF60009CEB0B /* Build configuration list for PBXNativeTarget "Tele2-NOG-1GBTests" */;
+			buildPhases = (
+				7112C4B323E2DF60009CEB0B /* Sources */,
+				7112C4B423E2DF60009CEB0B /* Frameworks */,
+				7112C4B523E2DF60009CEB0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7112C4B923E2DF60009CEB0B /* PBXTargetDependency */,
+			);
+			name = "Tele2-NOG-1GBTests";
+			productName = "Tele2-NOG-1GBTests";
+			productReference = 7112C4B723E2DF60009CEB0B /* Tele2-NOG-1GBTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7112C4C123E2DF60009CEB0B /* Tele2-NOG-1GBUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7112C4D123E2DF60009CEB0B /* Build configuration list for PBXNativeTarget "Tele2-NOG-1GBUITests" */;
+			buildPhases = (
+				7112C4BE23E2DF60009CEB0B /* Sources */,
+				7112C4BF23E2DF60009CEB0B /* Frameworks */,
+				7112C4C023E2DF60009CEB0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7112C4C423E2DF60009CEB0B /* PBXTargetDependency */,
+			);
+			name = "Tele2-NOG-1GBUITests";
+			productName = "Tele2-NOG-1GBUITests";
+			productReference = 7112C4C223E2DF60009CEB0B /* Tele2-NOG-1GBUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7112C49623E2DF5E009CEB0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Erik Waterham";
+				TargetAttributes = {
+					7112C49D23E2DF5E009CEB0B = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					7112C4B623E2DF60009CEB0B = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 7112C49D23E2DF5E009CEB0B;
+					};
+					7112C4C123E2DF60009CEB0B = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 7112C49D23E2DF5E009CEB0B;
+					};
+				};
+			};
+			buildConfigurationList = 7112C49923E2DF5E009CEB0B /* Build configuration list for PBXProject "Tele2-NOG-1GB" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7112C49523E2DF5E009CEB0B;
+			productRefGroup = 7112C49F23E2DF5E009CEB0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7112C49D23E2DF5E009CEB0B /* Tele2-NOG-1GB */,
+				7112C4B623E2DF60009CEB0B /* Tele2-NOG-1GBTests */,
+				7112C4C123E2DF60009CEB0B /* Tele2-NOG-1GBUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7112C49C23E2DF5E009CEB0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7112C4B123E2DF60009CEB0B /* LaunchScreen.storyboard in Resources */,
+				7112C4AE23E2DF60009CEB0B /* Preview Assets.xcassets in Resources */,
+				7112C4AB23E2DF60009CEB0B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7112C4B523E2DF60009CEB0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7112C4C023E2DF60009CEB0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7112C4D423E2DF94009CEB0B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ \"${CONFIGURATION}\" = \"Debug\" ]; then\n  if which swiftlint >/dev/null; then\n  pwd\n#    swiftlint --config \"$SRCROOT/.swiftlint.yml\"\n    swiftlint > swiftlint.txt\n    cat swiftlint.txt | sed -e 's/warning/;warning/' | sort -t ';' -k 2 -k 1 | sed 's/;//'\n  else\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\n  fi\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7112C49A23E2DF5E009CEB0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7112C4A223E2DF5E009CEB0B /* AppDelegate.swift in Sources */,
+				7112C4A723E2DF5E009CEB0B /* Tele2_NOG_1GB.xcdatamodeld in Sources */,
+				7112C4A923E2DF5E009CEB0B /* ContentView.swift in Sources */,
+				7112C4A423E2DF5E009CEB0B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7112C4B323E2DF60009CEB0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7112C4BC23E2DF60009CEB0B /* Tele2_NOG_1GBTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7112C4BE23E2DF60009CEB0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7112C4C723E2DF60009CEB0B /* Tele2_NOG_1GBUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7112C4B923E2DF60009CEB0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7112C49D23E2DF5E009CEB0B /* Tele2-NOG-1GB */;
+			targetProxy = 7112C4B823E2DF60009CEB0B /* PBXContainerItemProxy */;
+		};
+		7112C4C423E2DF60009CEB0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7112C49D23E2DF5E009CEB0B /* Tele2-NOG-1GB */;
+			targetProxy = 7112C4C323E2DF60009CEB0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7112C4AF23E2DF60009CEB0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7112C4B023E2DF60009CEB0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7112C4C923E2DF60009CEB0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7112C4CA23E2DF60009CEB0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7112C4CC23E2DF60009CEB0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Tele2-NOG-1GB/Preview Content\"";
+				DEVELOPMENT_TEAM = 745K8L27Y4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Tele2-NOG-1GB/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waterham.erik.2020.Tele2-NOG-1GB";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7112C4CD23E2DF60009CEB0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Tele2-NOG-1GB/Preview Content\"";
+				DEVELOPMENT_TEAM = 745K8L27Y4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Tele2-NOG-1GB/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waterham.erik.2020.Tele2-NOG-1GB";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7112C4CF23E2DF60009CEB0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 745K8L27Y4;
+				INFOPLIST_FILE = "Tele2-NOG-1GBTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waterham.erik.2020.Tele2-NOG-1GBTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tele2-NOG-1GB.app/Tele2-NOG-1GB";
+			};
+			name = Debug;
+		};
+		7112C4D023E2DF60009CEB0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 745K8L27Y4;
+				INFOPLIST_FILE = "Tele2-NOG-1GBTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waterham.erik.2020.Tele2-NOG-1GBTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tele2-NOG-1GB.app/Tele2-NOG-1GB";
+			};
+			name = Release;
+		};
+		7112C4D223E2DF60009CEB0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 745K8L27Y4;
+				INFOPLIST_FILE = "Tele2-NOG-1GBUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waterham.erik.2020.Tele2-NOG-1GBUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tele2-NOG-1GB";
+			};
+			name = Debug;
+		};
+		7112C4D323E2DF60009CEB0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 745K8L27Y4;
+				INFOPLIST_FILE = "Tele2-NOG-1GBUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waterham.erik.2020.Tele2-NOG-1GBUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tele2-NOG-1GB";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7112C49923E2DF5E009CEB0B /* Build configuration list for PBXProject "Tele2-NOG-1GB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7112C4C923E2DF60009CEB0B /* Debug */,
+				7112C4CA23E2DF60009CEB0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7112C4CB23E2DF60009CEB0B /* Build configuration list for PBXNativeTarget "Tele2-NOG-1GB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7112C4CC23E2DF60009CEB0B /* Debug */,
+				7112C4CD23E2DF60009CEB0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7112C4CE23E2DF60009CEB0B /* Build configuration list for PBXNativeTarget "Tele2-NOG-1GBTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7112C4CF23E2DF60009CEB0B /* Debug */,
+				7112C4D023E2DF60009CEB0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7112C4D123E2DF60009CEB0B /* Build configuration list for PBXNativeTarget "Tele2-NOG-1GBUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7112C4D223E2DF60009CEB0B /* Debug */,
+				7112C4D323E2DF60009CEB0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7112C4A523E2DF5E009CEB0B /* Tele2_NOG_1GB.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7112C4A623E2DF5E009CEB0B /* Tele2_NOG_1GB.xcdatamodel */,
+			);
+			currentVersion = 7112C4A623E2DF5E009CEB0B /* Tele2_NOG_1GB.xcdatamodel */;
+			path = Tele2_NOG_1GB.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7112C49623E2DF5E009CEB0B /* Project object */;
+}
